@@ -21,6 +21,7 @@
 		969D445A183DE91A00CBD3DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969D443C183DE91A00CBD3DE /* UIKit.framework */; };
 		969D4462183DE91A00CBD3DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 969D4460183DE91A00CBD3DE /* InfoPlist.strings */; };
 		969D4464183DE91A00CBD3DE /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969D4463183DE91A00CBD3DE /* GitTestTests.m */; };
+		969D446F183DF24800CBD3DE /* DGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 969D446E183DF24800CBD3DE /* DGTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		969D445F183DE91A00CBD3DE /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		969D4461183DE91A00CBD3DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		969D4463183DE91A00CBD3DE /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		969D446D183DF24800CBD3DE /* DGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGTest.h; sourceTree = "<group>"; };
+		969D446E183DF24800CBD3DE /* DGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		969D442C183DE91A00CBD3DE = {
 			isa = PBXGroup;
 			children = (
+				969D446D183DF24800CBD3DE /* DGTest.h */,
+				969D446E183DF24800CBD3DE /* DGTest.m */,
 				969D443E183DE91A00CBD3DE /* GitTest */,
 				969D445D183DE91A00CBD3DE /* GitTestTests */,
 				969D4437183DE91A00CBD3DE /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				969D4445183DE91A00CBD3DE /* main.m in Sources */,
 				969D444F183DE91A00CBD3DE /* DGViewController.m in Sources */,
+				969D446F183DF24800CBD3DE /* DGTest.m in Sources */,
 				969D4449183DE91A00CBD3DE /* DGAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
